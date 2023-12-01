@@ -1,0 +1,40 @@
+Sejam as declarações:
+
+int v[10] = {5, 4, 10, 3, 9, 8, 6, 1, 2, 7};
+
+int i, *pt;
+
+pt = v;
+
+
+
+Assinale as alternativas que apresentam instruções válidas (que não geram erros de compilação) e aquelas que apresentam afirmações verdadeiras.
+
+
+
+
+a. ((V))
+O valor de v[0] pode ser acessado por:  *v
+
+
+b.((V))
+a instrução   *(pt+3) = 900 altera o valor de v[3] de 3 para 900
+
+
+c.
+a instrução &pt = v[9] é válida, ou seja, não gera erro de compilação
+
+
+d.((V))
+a instrução pt = &v[9] é válida, ou seja, não gera erro de compilação
+
+
+e.
+v++ avança o ponteiro para a próxima posição do vetor v
+
+
+f.
+a instrução pt = *(v+6) faz pt apontar para v[6]
+
+g.((V))
+O valor de v[0] pode ser acessado por:  pt[0]

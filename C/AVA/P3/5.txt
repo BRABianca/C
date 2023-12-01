@@ -1,0 +1,21 @@
+A) (F) No algoritmo de ordenação por intercalação escollhe-se um ponto de referência (pivô) e separam-se os elementos em 2 partes: à esquerda, ficam os elementos menores que o pivô, e à direita os maiores. Repete-se este processo para os grupos de elementos formados (esquerda e direita) até que todos os elementos estejam ordenados.
+    //Algoritmo de ordenação por intercalação não utiliza um ponto de referência (pivô), mas divide a lista pela metade e recursivamente ordena as partes separadas, fundindo-as posteriormente.
+
+B) (F) Ao se realizar uma bsuca em um vetor quallquer, executa-se no pior caso, log n comparações.
+    //No pior caso, a busca em um vetor requer O(n) comparações, não O(log n).
+
+C) (V) No algoritmo de ordenação por separação (quicksort) escolhe-se um ponto de referência (pivô) e separam-se os elementos em 2 partes: à esquerda, ficam os elementos menores que o pivô, e à direita, os maiores. Repete-se este processo para os novos grupos de elementos encontrados (esquerda e direita) até que todos os elementos estejam ordenados.
+    //Algoritmo de ordenação por separação (quicksort) utiliza um pivô para dividir os elementos e ordena recursivamente os grupos formados.
+
+D) (V) O custo da operação de inserção em uma lista simplesmente encadeada dependerá o tipo de inserção implementada (posição desejada para inserção).
+    //O custo da operação de inserção em uma lista simplesmente encadeada depende da posição desejada para inserção, sendo O(1) para inserção no início.
+
+
+E) (F) A operação de inserção em uma pilha tem orddem O(n), onde n é o número de elemento existentes na pilha.
+    //A operação de inserção em uma pilha tem ordem O(1), não O(n).
+
+F) (V) A operação de remoção em uma fila tem custo constante, ou seja, O(1).
+    //A operação de remoção em uma fila tem custo constante, O(1).
+
+G) (F) A operação de remoção em uma lista duplamente encadeada tem custo O(log n), onde n é o número de elementos existentes na pilha.
+    //A operação de remoção em uma lista duplamente encadeada tem custo O(1), não O(log n).
